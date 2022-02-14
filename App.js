@@ -36,17 +36,7 @@ export default class App extends Component {
 }
 
 const AppSwitchNavigator = createSwitchNavigator(
-  {
-    Login: {
-      screen: LoginScreen
-    },
-    BottomTab: {
-      screen: BottomTabNavigator
-    }
-  },
-  {
-    initialRouteName: "Login"
-  }
+  //Add code for the AppSwitchNavigator
 );
 
 const AppContainer = createAppContainer(AppSwitchNavigator);
