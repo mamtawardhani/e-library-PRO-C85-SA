@@ -37,6 +37,7 @@ export default class App extends Component {
 
 const AppSwitchNavigator = createSwitchNavigator(
   //Add code for the AppSwitchNavigator
+  
 );
 
 const AppContainer = createAppContainer(AppSwitchNavigator);
